@@ -187,3 +187,5 @@ declare const YoutubeIframe: React.VFC<YoutubeIframeProps>;
 export default YoutubeIframe;
 
 export function getYoutubeMeta(id: string): Promise<YoutubeMeta>;
+
+export type {YoutubeIframeRef, YoutubeIframeProps, InitialPlayerParams, YoutubeMeta};
