@@ -121,7 +121,7 @@ const YoutubeIframe = (props, ref) => {
           PLAYER_FUNCTIONS.seekToScript(seconds, allowSeekAhead),
         );
       },
-	  playVideo: () => {
+      playVideo: () => {
         if (!webViewRef.current) {
           return;
         }
