@@ -31,6 +31,8 @@ export interface YoutubeIframeRef {
   pauseVideo: () => void;
 }
 
+export type {YoutubeIframeRef};
+
 export interface InitialPlayerParams {
   loop?: boolean;
   controls?: boolean;
